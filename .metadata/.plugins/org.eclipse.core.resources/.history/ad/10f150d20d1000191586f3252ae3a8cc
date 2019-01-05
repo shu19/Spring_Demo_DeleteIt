@@ -1,0 +1,5 @@
+package com.cg.app.model;
+
+public class Customer {
+
+}

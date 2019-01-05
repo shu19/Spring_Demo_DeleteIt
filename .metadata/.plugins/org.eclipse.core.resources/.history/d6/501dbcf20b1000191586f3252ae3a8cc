@@ -1,0 +1,8 @@
+package com.cg.app.repository;
+
+import java.util.List;
+
+public interface CustomerRepository {
+
+	public List<Customer> findAll();
+}
