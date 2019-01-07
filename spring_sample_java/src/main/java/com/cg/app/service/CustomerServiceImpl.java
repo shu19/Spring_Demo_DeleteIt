@@ -19,7 +19,7 @@ import com.cg.app.repository.CustomerRepository;
 @Service("customerService")
 public class CustomerServiceImpl implements CustomerService {
 
-	@Autowired(required=true) 
+//	@Autowired(required=true) 
 	private CustomerRepository customerRepository;
 
 //	@Autowired 
@@ -28,7 +28,11 @@ public class CustomerServiceImpl implements CustomerService {
 		this.customerRepository = customerRepository;
 	}
 
-//	 @Autowired 
+public CustomerServiceImpl() {
+		// TODO Auto-generated constructor stub
+	}
+
+	//	 @Autowired 
 	public void setCustomerRepository(CustomerRepository customerRepository) {
 		System.out.println("In setter Method");
 		this.customerRepository = customerRepository;
