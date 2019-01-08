@@ -3,11 +3,13 @@ package com.cg.app.repository;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Repository;
 
 import com.cg.app.model.Customer;
 
-@Repository("customerRepository1")
+@Primary
+@Repository
 public class HibernateCustomerRepository implements CustomerRepository{
 
 	@Override
@@ -18,10 +20,6 @@ public class HibernateCustomerRepository implements CustomerRepository{
 		customer.setFirstName("Shubham");
 		customer.setLastName("Raut");
 		customers.add(customer);
-		
 		return customers;
-	}
-
-	
-	
+	}	
 }

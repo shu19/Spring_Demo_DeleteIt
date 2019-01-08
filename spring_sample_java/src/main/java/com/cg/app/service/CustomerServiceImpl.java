@@ -11,15 +11,14 @@ import org.springframework.stereotype.Service;
 import com.cg.app.model.Customer;
 import com.cg.app.repository.CustomerRepository;
 /**
- * startSobar.bat
- * 
+ *  
  * @author shuraut
  *
  */
 @Service("customerService")
 public class CustomerServiceImpl implements CustomerService {
 
-//	@Autowired(required=true) 
+//	@Autowired 
 	private CustomerRepository customerRepository;
 
 //	@Autowired 
@@ -28,11 +27,11 @@ public class CustomerServiceImpl implements CustomerService {
 		this.customerRepository = customerRepository;
 	}
 
-public CustomerServiceImpl() {
+	public CustomerServiceImpl() {
 		// TODO Auto-generated constructor stub
 	}
 
-	//	 @Autowired 
+	@Autowired 
 	public void setCustomerRepository(CustomerRepository customerRepository) {
 		System.out.println("In setter Method");
 		this.customerRepository = customerRepository;

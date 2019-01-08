@@ -7,7 +7,8 @@ import org.springframework.stereotype.Repository;
 
 import com.cg.app.model.Customer;
 
-@Repository("customerRepository")
+
+@Repository
 public class JDBCCustomerRepository implements CustomerRepository{
 
 	@Override

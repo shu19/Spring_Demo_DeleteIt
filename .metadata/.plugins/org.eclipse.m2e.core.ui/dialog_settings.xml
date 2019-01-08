@@ -20,6 +20,8 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Shubham\Maven\springaopmmbank"/>
+			<item value="C:\Shubham\Maven\springaop"/>
 			<item value="C:\Shubham\Maven\springmmbank"/>
 			<item value="C:\Shubham\Maven\spring_sample"/>
 			<item value="C:\Shubham\SpringWorkSpace\firstspringapp"/>
