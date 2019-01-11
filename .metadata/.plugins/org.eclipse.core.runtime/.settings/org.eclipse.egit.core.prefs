@@ -1,4 +1,4 @@
-GitRepositoriesView.GitDirectories=C\:\\Shubham\\SpringWorkSpace\\.git;C\:\\Shubham\\Maven\\springmmbank\\.git;
-GitRepositoriesView.GitDirectories.relative=.git;C\:\\Shubham\\Maven\\springmmbank\\.git;
+GitRepositoriesView.GitDirectories=C\:\\Shubham\\Maven\\SpringMMBankWebApp\\.git;C\:\\Shubham\\SpringWorkSpace\\.git;C\:\\Shubham\\Maven\\springaopmmbank\\.git;C\:\\Shubham\\Maven\\springmmbank\\.git;
+GitRepositoriesView.GitDirectories.relative=C\:\\Shubham\\Maven\\SpringMMBankWebApp\\.git;.git;C\:\\Shubham\\Maven\\springaopmmbank\\.git;C\:\\Shubham\\Maven\\springmmbank\\.git;
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1
